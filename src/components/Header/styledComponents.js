@@ -8,6 +8,8 @@ export const Nav = styled.nav`
   padding: 20px;
 `
 export const Logo = styled.img`
-  height: 50px;
-  width: 150px;
+   height: 40px;
+  width: 156px;
+  box-sizing: border-box;
+  margin: 0 16px;
 `
