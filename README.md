@@ -1,4 +1,51 @@
-The goal of this coding exam is to quickly get you off the ground with **React Context**.
+# 📝 Meetup App
+
+The goal for building this App is to demonstrate Reactjs skills using **React Context**.
+
+
+A React.js application developed to **register a students with their name and chosen topic**, and subsequently display a personalized welcome message. This project reflects clean React.js architecture and the utilization of standard third-party libraries.
+
+---
+
+## 🚀 Project Purpose
+
+This project was built to demonstrate **React.js development skills** using the `Context API`, component-driven architecture, and third-party library integrations. The focus is on state sharing across components using `React Context`, offering a scalable and maintainable pattern for modern React applications.
+
+---
+
+## 🧰 Tech Stack
+
+* **React.js**
+* **JavaScript (ES6+)**
+* **HTML5**
+* **Git** *(for version control)*
+
+Third-Party-Packages
+* **Styled-components** *(for styling)*
+* **react-router-dom** *(for routing)*
+
+---
+
+## ✅ Features
+
+* Allows users to input their **name** and select a **course/topic**.
+* On submission, displays a **personalized welcome message**.
+* Utilizes `React Context` for state management across routes.
+* Provides basic error validation for empty inputs or unselected fields.
+
+---
+
+## 🧪 How to Use
+
+1. On the **Home** route, click the **Register** button.
+2. You will be redirected to the **Register** route.
+3. Enter your **Name** and select a **Course/Topic** from the dropdown menu.
+4. Click **Register Now**.
+5. You will be redirected to the **Home** route with a welcome message:
+
+   > `"Hello, [Your Name]! Welcome to [Course Name]."`
+
+---
 
 ### Refer to the image below:
 
@@ -33,60 +80,7 @@ The goal of this coding exam is to quickly get you off the ground with **React C
 
 </details>
 
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- **Home Route**
-  - Initially, when the **Register** button in the Home Route is clicked, then the page should be navigated to Register Route
-  - When the **Register Now** button in the Register Route is clicked, then the input name and selected topic in the Register Route should be displayed in the Home Route
-
-- **Register Route**
-
-  - Initially, the value in the input element should be empty and the selected value in the select element should be the first item in the given **topicsList**
-  - When the **Register Now** button is clicked with an empty input value, then the respective error message should be displayed and page should not be navigated to Home Route
-  - When the values are provided for both the input and select elements and the **Register Now** button is clicked, then the page should be navigated to Home Route
-
-- **Not Found Route**
-  - When a random path is provided as the URL, then the page should be navigated to the Not Found Route
-- Use `styled-components` for styling elements
-- The `App` component is provided with **topicsList**. It consists of a list of topic objects with the following properties in each topic object
-
-  |     Key     | Data Type |
-  | :---------: | :-------: |
-  |     id      |  String   |
-  | displayText |  String   |
-
-
-</details>
-
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
- - Home Route should consist of `/` in the URL path
- - Register Route should consist of `/register` in the URL path
-
-</details>
+---
 
 ### Resources
 
@@ -124,6 +118,18 @@ The app must have the following functionalities
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
+---
+
+## 👤 Author
+
+→ GitHub: @bhuvan-007-github
+→ LinkedIn: 
+
+---
+
+### 📝 Notes
+
+* **Context API**: A built-in React feature used for sharing data across components without prop-drilling.
+  *Example*: Instead of passing user info from parent to child components, `Context` allows direct access wherever needed.
+
+
