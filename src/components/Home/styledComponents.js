@@ -31,7 +31,7 @@ export const Button = styled.button`
 `
 
 export const Image = styled.img`
-  height: 350px;
+  height: 480px;
   width: 70%;
   margin: 48px;
 `
